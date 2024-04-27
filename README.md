@@ -52,7 +52,7 @@ The saved features.csv is used for training and testing by these machine learnin
 Out of all these machine learning methods,KNN and Random forest worked better on the dataset with higher accuracy as compared to Naives Bayes and Adaboost,finally KNN and Random forest pickle files were used during deployment.
 
 **Conclusion**
-The project was deployed on streamlit and here is the demo video of project.
+The project was deployed on streamlit and further expansion include using yolov5 or other deep learning models for object detection and then exploring other deep learning models for classification. 
 
 
 

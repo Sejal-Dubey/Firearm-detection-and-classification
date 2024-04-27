@@ -51,8 +51,13 @@ The saved features.csv is used for training and testing by these machine learnin
 
 Out of all these machine learning methods,KNN and Random forest worked better on the dataset with higher accuracy as compared to Naives Bayes and Adaboost,finally KNN and Random forest pickle files were used during deployment.
 
-**Conclusion**
-The project was deployed on streamlit and further expansion include using yolov5 or other deep learning models for object detection and then exploring other deep learning models for classification. 
+**Conclusion**:
+
+-It was observed the machine learning models were not able to generalize well,after a certain point their limit execeeded and they started learning instead of classifying ,thus the model concluded to one class only.
+
+-Resnet 50 model performed very well on unseen data which can further be expanded for classifying more variety of guns other than handgun and machinegun.
+
+-The project was deployed on streamlit and further expansion include using yolov5 or other deep learning models for object detection and then exploring other deep learning models for classification. 
 
 # Instructions on how to run the code
 
@@ -61,5 +66,18 @@ The project was deployed on streamlit and further expansion include using yolov5
 2.Place a image in front of camera after running the code and the probable handgun and machine gun will be detected and saved as roi in the provided folder.
 
 3.Run the st.py which is the streamlit code of deployment and local host of streamlit will be deployed on screen ,where give the path of any one suitable foi from saved folder and then choose the models from option and click predict button to get the predicted class of input image.
+
+# Note:
+
+**Link of all the pkl files ,h5 file and features.csv named augmented_combined_cropped_roi_handgun&machinegun.csv) is uploaded on mega due to size issue in github.**
+
+csv- https://mega.nz/file/9ulGjKaB#Nt8oIM3m8xDUnfWmOlQMTWjoe-je6nFf2wvUC1fG4O8
+
+resnet50.h5- https://mega.nz/file/4rEynb4T#XUKiRSA5unizlW1vfK5poFds2yYjSFpt-9J9uMCKq8E
+
+knn.pkl- https://mega.nz/file/Ry0gHKjL#1rkLsfNSSj0BZvNwIpgA_ZzysgVAr5K0vaPDdJvf_cU
+
+random forest-https://mega.nz/file/h2sA0RxI#cPHrXfrfT4vtD2jckHLZFV3hyQngExx6bWcsIUjhaTw
+
 
 

@@ -92,7 +92,7 @@ def main():
     random_forest_model_path = r"C:\Users\Sejal\Downloads\yolo_source\random_forest_model.pkl"
     random_forest_model = load_model(random_forest_model_path)
 
-    knn_model_path = r'C:\Users\Sejal\Downloads\yolo_source\knn_classifier_final.pkl'
+    knn_model_path = r'C:\Users\Sejal\Downloads\yolo_source\new_knn_classifier_final.pkl'
     knn_model = load_model(knn_model_path)
 
     st.write(

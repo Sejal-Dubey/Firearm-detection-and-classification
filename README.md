@@ -54,5 +54,12 @@ Out of all these machine learning methods,KNN and Random forest worked better on
 **Conclusion**
 The project was deployed on streamlit and further expansion include using yolov5 or other deep learning models for object detection and then exploring other deep learning models for classification. 
 
+# Instructions on how to run the code
+
+1.Run the harr-cascade classifier.ipynb ensuring that you have correctly provided the path of downloaded cascade.xml file and the folder where the detected region of interest will be saved.
+
+2.Place a image in front of camera after running the code and the probable handgun and machine gun will be detected and saved as roi in the provided folder.
+
+3.Run the st.py which is the streamlit code of deployment and local host of streamlit will be deployed on screen ,where give the path of any one suitable foi from saved folder and then choose the models from option and click predict button to get the predicted class of input image.
 
 
